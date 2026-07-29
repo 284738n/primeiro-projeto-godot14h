@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cq8vr0rmfs8e4"]
+
+[ext_resource type="Script" uid="uid://ckdghfkd1ld8p" path="res://script/achievements.gd" id="1_bnact"]
+[ext_resource type="Texture2D" uid="uid://c8pcmxmwn5n0" path="res://my assets/chapeu-de-palha.png" id="1_nr1wc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e00ml"]
+size = Vector2(28, 16)
+
+[node name="achievements" type="Area2D"]
+script = ExtResource("1_bnact")
+
+[node name="texture" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+texture = ExtResource("1_nr1wc")
+
+[node name="collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_e00ml")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

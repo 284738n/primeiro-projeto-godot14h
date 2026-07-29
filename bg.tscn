@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://cx60eh1th7fuf"]
+
+[ext_resource type="Texture2D" uid="uid://dagd5ctkei45o" path="res://assets/Seasonal Tilesets/4 - Winter World/Background parts/background-bigmountain.png" id="1_36ycx"]
+[ext_resource type="Texture2D" uid="uid://dm43g63ekvajl" path="res://assets/Seasonal Tilesets/4 - Winter World/Background parts/3 - Big_mountain_BG.png" id="2_plmvg"]
+[ext_resource type="Texture2D" uid="uid://b4qwfgyft1vk6" path="res://assets/Seasonal Tilesets/3 - Tropics/Background parts/3 - Floating_clouds.png" id="3_7sudn"]
+[ext_resource type="Texture2D" uid="uid://br0jcaqwqvrs4" path="res://assets/Seasonal Tilesets/4 - Winter World/Background parts/2 - Smaller_mountains.png" id="4_b16yh"]
+[ext_resource type="Texture2D" uid="uid://cvr5qqfw83neb" path="res://assets/Seasonal Tilesets/4 - Winter World/Background parts/1 - Snowy_foreground_area.png" id="5_twoho"]
+
+[node name="BG" type="Node2D" unique_id=898682546]
+
+[node name="05" type="Parallax2D" parent="." unique_id=1868940962]
+scale = Vector2(1.5, 1.5)
+scroll_scale = Vector2(0.6, 1)
+scroll_offset = Vector2(217, 9)
+repeat_size = Vector2(432, 312)
+repeat_times = 3
+
+[node name="texture" type="Sprite2D" parent="05" unique_id=2128366246]
+position = Vector2(292, -130.00002)
+scale = Vector2(1.5, 1.721)
+texture = ExtResource("1_36ycx")
+centered = false
+
+[node name="04" type="Parallax2D" parent="." unique_id=1687931033]
+scroll_offset = Vector2(217, 9)
+repeat_size = Vector2(432, 0)
+repeat_times = 3
+
+[node name="texture" type="Sprite2D" parent="04" unique_id=609221377]
+position = Vector2(292, -173.99998)
+scale = Vector2(1.5, 1.9326923)
+texture = ExtResource("2_plmvg")
+centered = false
+
+[node name="03" type="Parallax2D" parent="." unique_id=597935193]
+scroll_offset = Vector2(0, 9)
+repeat_size = Vector2(432, 0)
+autoscroll = Vector2(-50, 0)
+repeat_times = 3
+
+[node name="texture" type="Sprite2D" parent="03" unique_id=1295431024]
+modulate = Color(0.6899902, 0.88333124, 0.97739, 1)
+position = Vector2(292, -173.99998)
+scale = Vector2(1.5, 1.9326923)
+texture = ExtResource("3_7sudn")
+centered = false
+
+[node name="02" type="Parallax2D" parent="." unique_id=41470393]
+scroll_scale = Vector2(0.8, 1)
+scroll_offset = Vector2(217, 9)
+repeat_size = Vector2(432, 0)
+repeat_times = 3
+
+[node name="texture" type="Sprite2D" parent="02" unique_id=1427464459]
+position = Vector2(292, -130.00002)
+scale = Vector2(1.5, 1.721154)
+texture = ExtResource("4_b16yh")
+centered = false
+
+[node name="01" type="Parallax2D" parent="." unique_id=1138390133]
+scroll_offset = Vector2(217, 9)
+repeat_size = Vector2(432, 0)
+repeat_times = 3
+
+[node name="texture" type="Sprite2D" parent="01" unique_id=600777003]
+position = Vector2(292, -130.00002)
+scale = Vector2(1.5, 1.721154)
+texture = ExtResource("5_twoho")
+centered = false
