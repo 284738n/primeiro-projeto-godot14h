@@ -1,49 +1,14 @@
-
-# primeiro-projeto-godot14h
-
-
+# EverDream
 ## 🎮Sobre o projeto
 
-Este é o meu primeiro projeto, ele éum jogo **plataforma 2D** feito em aula durante o meu curso de programação.
+#### E se você acabasse preso em um sonho?
 
-### ⚡️ Objetivo
-
-Nele você passa por desafios de plataforma e coleta moedas pelo cenário até chegar no final da fase.
-
-### Prints
-
-<img width="636" height="315" alt="image" src="https://github.com/user-attachments/assets/8a621a52-a93d-418d-a6a4-f762e71e5837" />
-<img width="638" height="317" alt="image" src="https://github.com/user-attachments/assets/c929b729-5767-4258-a6cd-a1ec385ed98e" />
-
-## 🛠️ Ferramentas utilizadas
-
-* **Game Engine:** Godot Engine
-* **Linguagem:** GDScript / C#
-* **Arte:** Itch.io
-
-## 🕹️ Controles
-
-| Tecla | Ação |
-| :--- | :--- |
-| **Setas / A e D** | Movimentação (Esquerda / Direita) |
-| **Espaço / W / Z** | Pular |
-
-## ✨ A seguir
-
-* Adicionar mais fases.
-* Criar novos inimigos .
-* Adicionar trilha sonora.
-
-
-## 💬 Sobre mim
-
-#### Olá!👋 Meu  nome é **Davi pimentel de lima**, tenho 14 anos, sou artista, gamer e programador. Eu faço curso de programação de jogos e estou aprendendo **C#** e **GitHub**.
-Eu utilizo a game engine **Godot** 
-
-### 🛠 Coisas que sei
-- **Pixel art**
-- **GDscript**
-- **Básico de Python**
-- **C#**
-- **Tile Map**
-- **Básico em animção em Pixel Art**
+EverDream é um projeto de um jogo **2D** **Metroidvânia** de **fantasia**, **aventura**, **luta** e **ação**.
+Nele você controla Orion, um adolescente de 16 anos, que estava cansado de sua rotina repetitiva, quando acaba ficando preso em um mundo de fantasia e magia, quase como um **sonho**... ou seria um **pesadelo**?
+Agora Orion tem que enfrentar inimigos, vencendo desafios e superando traumas e medos da vida dele, tentando achar uma forma de acordar.
+#####  ✨Explore, lute e fique mais forte ✨
+Adentre nesse mundo dos sonhos, **explore** novas regiões, que são interligadas conheça **novos aliados**, enfrente vários tipos de **inimigos** e ganhe **novas habilidades** de combate e movimentação.Você pode melhorar seu equipamento, magia e outros atributos conforme ganha mais níveis de sonho fazendo missões e ajudando habitantes
+###  ⚡️História
+Orion tem 16 anos, mora apenas com a avó e vivia cansado de sua rotina, sempre acordando cedo, estudando e trabalhando para ajudar a avó.
+Quando uma noite, desejando apenas poder sonhar para sempre, ele acorda em um mundo mágico, onde ele acaba salvando um pequeno espírito chamado **Ollie**, que em troca da ajuda, ele acompanha Orion, ajudando-o com o combate.
+Porém, conforme ele explora este mundo ele percebe que terá que enfrentar muitos desafios de toda sua vida em forma de inimigos caso queira voltar para sua vida no mundo real.
