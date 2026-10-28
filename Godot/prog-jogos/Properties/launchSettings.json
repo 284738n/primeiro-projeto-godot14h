@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "progJogosCsharpQua16h": {
+      "commandName": "Project"
+    },
+    "Perfil 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\godot\\Godot_v4.7-stable_sharp_mono_win64\\Godot_v4.7_sharp.exe",
+      "workingDirectory": ".",
+      "debugEngines": "managed-dotnet,native"
+    }
+  }
+}

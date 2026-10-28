@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://4gb0l0dg8fx2"]
+
+[ext_resource type="PackedScene" uid="uid://c1ao4h4gke0dl" path="res://scenes/player.tscn" id="1_0x1uh"]
+
+[node name="world01" type="Node2D" unique_id=1353103668]
+
+[node name="arena_visual" type="Polygon2D" parent="." unique_id=66221875]
+color = Color(0.105882, 0.129412, 0.168627, 1)
+polygon = PackedVector2Array(0, 0, 2304, 0, 2304, 1296, 0, 1296)
+
+[node name="casas" type="Node2D" parent="." unique_id=2085205331]
+
+[node name="house_label" type="Label" parent="casas" unique_id=1862154676]
+offset_left = 1327.0
+offset_top = 363.0
+offset_right = 1443.0
+offset_bottom = 389.0
+text = "CASA 1"
+
+[node name="house_label2" type="Label" parent="casas" unique_id=2036079401]
+offset_left = 942.0
+offset_top = 631.0
+offset_right = 1058.0
+offset_bottom = 657.0
+text = "CASA 2"
+
+[node name="house_label3" type="Label" parent="casas" unique_id=1423989326]
+offset_left = 1667.0
+offset_top = 650.0
+offset_right = 1783.0
+offset_bottom = 676.0
+text = "CASA 3"
+
+[node name="house_label4" type="Label" parent="casas" unique_id=316183515]
+offset_left = 1325.0
+offset_top = 897.0
+offset_right = 1441.0
+offset_bottom = 923.0
+text = "CASA 4"
+
+[node name="house_label5" type="Label" parent="casas" unique_id=1515949222]
+offset_left = 528.0
+offset_top = 953.0
+offset_right = 644.0
+offset_bottom = 976.0
+text = "CASA 5"
+
+[node name="house_label6" type="Label" parent="casas" unique_id=1971982605]
+offset_left = 482.0
+offset_top = 327.0
+offset_right = 598.0
+offset_bottom = 350.0
+text = "CASA 6"
+
+[node name="house_label7" type="Label" parent="casas" unique_id=475061915]
+offset_left = 2092.0
+offset_top = 300.0
+offset_right = 2208.0
+offset_bottom = 323.0
+text = "CASA 6"
+
+[node name="house_label8" type="Label" parent="casas" unique_id=1811148048]
+offset_left = 2081.0
+offset_top = 1033.0
+offset_right = 2197.0
+offset_bottom = 1056.0
+text = "CASA 8"
+
+[node name="player" parent="." unique_id=640426988 instance=ExtResource("1_0x1uh")]
+position = Vector2(1400, 680)
