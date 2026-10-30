@@ -32,7 +32,7 @@ Depois de editar ou criar o `README.md` no VS Code, execute:
 ```shell
 git pull
 git add .
-git commit -m "Melhora o README do projeto"
+git commit -m "update"
 git push
 ```
 
