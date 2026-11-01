@@ -26,6 +26,10 @@ window/size/viewport_height=320
 window/stretch/mode="viewport"
 window/stretch/scale=2.0
 
+[dotnet]
+
+project/assembly_name="primeiro-projeto-qui-9h"
+
 [input]
 
 ui_accept={
