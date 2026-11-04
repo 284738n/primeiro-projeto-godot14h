@@ -66,5 +66,11 @@ offset_right = 2197.0
 offset_bottom = 1056.0
 text = "CASA 8"
 
+[node name="Polygon2D" type="Polygon2D" parent="casas" unique_id=1051050683]
+position = Vector2(1443.52, 385)
+scale = Vector2(0.75322855, 1)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(93.57056, 47.98948, 89.58765, -99, -214.43689, -101.01052, -211.78162, 49)
+
 [node name="player" parent="." unique_id=640426988 instance=ExtResource("1_0x1uh")]
 position = Vector2(1400, 680)
